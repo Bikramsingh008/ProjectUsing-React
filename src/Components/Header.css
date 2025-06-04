@@ -1,0 +1,56 @@
+.Header {
+  position: fixed;
+  top: 10px;
+  width: 97%;
+  background-color: white;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgb(187, 184, 184);
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-shadow: 0 1px 25px rgb(233, 162, 22);
+  font-size: 30px;
+}
+
+.parts {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+  padding: 10;
+}
+
+.parts li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.parts li a:hover {
+  color: rgb(233, 162, 22);
+}
+
+@media (max-width: 768px) {
+  .parts {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+}
+.menu-button {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menu-button {
+    display: block;
+  }
+}
+
+

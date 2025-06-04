@@ -1,0 +1,47 @@
+.foodCart{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0px;
+    position: relative;
+    left: 8px;
+}
+.foodCart:hover{
+    color: rgb(233, 162, 22);
+}
+.food-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  width: 90%;
+  margin:80px;
+  padding: 50px;
+  position: relative;
+  left: 70px;
+  top: 150px;
+}
+
+.food-item{
+  text-align: center;
+  position: relative;
+  right: 110px;
+}
+.food-image {
+  width: 80%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.food-title{
+  font-size: 25px;
+  margin-top: 8px;
+}
+.food-price {
+  font-size: 25px;
+  margin-top: 8px;
+  position: relative;
+  bottom: 20px;
+}
